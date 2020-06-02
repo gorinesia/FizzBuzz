@@ -46,7 +46,7 @@ btn.addEventListener('click', () => {
   //誤った動作をし、エラーが表示された後の挙動を関数で宣言//
 
   //値を空にして、もう一度値を入力するための関数を用意
-  function clear() {
+  function NumberClear() {
 
     //fizzNumの値を空にする
     fizzNumber.value = '';
@@ -84,7 +84,7 @@ btn.addEventListener('click', () => {
     alert('文字列が入力されています！');
 
     //値を一度クリアにする処理
-    clear();
+    NumberClear();
 
     // //もう一度数値を入力するための関数を返す処理
     return errorMessage();
@@ -98,7 +98,7 @@ btn.addEventListener('click', () => {
     alert('数字が入力されていません！');
 
     //値を一度クリアにする処理
-    clear();
+    NumberClear();
 
     // もう一度数値を入力するための関数を返す処理
     return errorMessage();;
@@ -111,7 +111,7 @@ btn.addEventListener('click', () => {
     alert('小数値が入力されています！');
 
     //値を一度クリアにする処理
-    clear();
+    NumberClear();
 
     //もう一度数値を入力するための関数を返す処理
     return errorMessage();
